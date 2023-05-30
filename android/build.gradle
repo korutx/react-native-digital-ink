@@ -29,7 +29,7 @@ android {
   compileSdkVersion getExtOrIntegerDefault('compileSdkVersion')
   buildToolsVersion getExtOrDefault('buildToolsVersion')
   defaultConfig {
-    minSdkVersion 16
+    minSdkVersion 19
     targetSdkVersion getExtOrIntegerDefault('targetSdkVersion')
     versionCode 1
     versionName "1.0"
@@ -135,7 +135,7 @@ dependencies {
 
   implementation 'androidx.appcompat:appcompat:1.2.0'
 
-  implementation 'com.google.mlkit:digital-ink-recognition:16.1.0'
+  implementation 'com.google.mlkit:digital-ink-recognition:18.1.0'
 
   androidTestImplementation 'androidx.test:rules:1.2.0'
   androidTestImplementation 'androidx.test:runner:1.2.0'
