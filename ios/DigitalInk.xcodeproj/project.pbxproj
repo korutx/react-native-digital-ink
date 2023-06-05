@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-
-
-		F4FF95D7245B92E800C19C63 /*  DigitalInk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  DigitalInk.swift */; };
-
-		5E555C0D2413F4C50049A1A2 /* DigitalInk.mm in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* DigitalInk.mm */; };
+		9A9FEBC02A2DF8C40059ECF4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBB32A2DF8C30059ECF4 /* ViewController.m */; };
+		9A9FEBC12A2DF8C40059ECF4 /* DigitalInkView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBB42A2DF8C30059ECF4 /* DigitalInkView.m */; };
+		9A9FEBC22A2DF8C40059ECF4 /* RCTDigitalInkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBB62A2DF8C40059ECF4 /* RCTDigitalInkManager.m */; };
+		9A9FEBC32A2DF8C40059ECF4 /* RCTDigitalInkModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBB72A2DF8C40059ECF4 /* RCTDigitalInkModule.m */; };
+		9A9FEBC42A2DF8C40059ECF4 /* StrokeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBB92A2DF8C40059ECF4 /* StrokeManager.m */; };
+		9A9FEBC52A2DF8C40059ECF4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBBE2A2DF8C40059ECF4 /* SceneDelegate.m */; };
+		9A9FEBC62A2DF8C40059ECF4 /* RecognizedInk.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A9FEBBF2A2DF8C40059ECF4 /* RecognizedInk.m */; };
+		ECAF10113A335915896E0B83 /* libPods-DigitalInk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D159E564CD6C583AE2FC7D51 /* libPods-DigitalInk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,12 +31,21 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libDigitalInk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDigitalInk.a; sourceTree = BUILT_PRODUCTS_DIR; };
-
-
-		B3E7B5891CC2AC0600A0062D /* DigitalInk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalInk.m; sourceTree = "<group>"; };
-		F4FF95D5245B92E700C19C63 /* DigitalInk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DigitalInk-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* DigitalInk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalInk.swift; sourceTree = "<group>"; };
-
+		9A9FEBB22A2DF8C30059ECF4 /* SceneDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		9A9FEBB32A2DF8C30059ECF4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A9FEBB42A2DF8C30059ECF4 /* DigitalInkView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalInkView.m; sourceTree = "<group>"; };
+		9A9FEBB52A2DF8C30059ECF4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A9FEBB62A2DF8C40059ECF4 /* RCTDigitalInkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDigitalInkManager.m; sourceTree = "<group>"; };
+		9A9FEBB72A2DF8C40059ECF4 /* RCTDigitalInkModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDigitalInkModule.m; sourceTree = "<group>"; };
+		9A9FEBB82A2DF8C40059ECF4 /* RecognizedInk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecognizedInk.h; sourceTree = "<group>"; };
+		9A9FEBB92A2DF8C40059ECF4 /* StrokeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StrokeManager.m; sourceTree = "<group>"; };
+		9A9FEBBA2A2DF8C40059ECF4 /* RCTDigitalInkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDigitalInkManager.h; sourceTree = "<group>"; };
+		9A9FEBBB2A2DF8C40059ECF4 /* DigitalInkView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalInkView.h; sourceTree = "<group>"; };
+		9A9FEBBC2A2DF8C40059ECF4 /* RCTDigitalInkModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDigitalInkModule.h; sourceTree = "<group>"; };
+		9A9FEBBD2A2DF8C40059ECF4 /* StrokeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StrokeManager.h; sourceTree = "<group>"; };
+		9A9FEBBE2A2DF8C40059ECF4 /* SceneDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		9A9FEBBF2A2DF8C40059ECF4 /* RecognizedInk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecognizedInk.m; sourceTree = "<group>"; };
+		D159E564CD6C583AE2FC7D51 /* libPods-DigitalInk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DigitalInk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECAF10113A335915896E0B83 /* libPods-DigitalInk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -55,16 +68,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		4FBBC9C81CEC3CD9F751091C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D159E564CD6C583AE2FC7D51 /* libPods-DigitalInk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
-
-
-				F4FF95D6245B92E800C19C63 /* DigitalInk.swift */,
-				B3E7B5891CC2AC0600A0062D /* DigitalInk.m */,
-				F4FF95D5245B92E700C19C63 /* DigitalInk-Bridging-Header.h */,
-
+				9A9FEBBB2A2DF8C40059ECF4 /* DigitalInkView.h */,
+				9A9FEBB42A2DF8C30059ECF4 /* DigitalInkView.m */,
+				9A9FEBBC2A2DF8C40059ECF4 /* RCTDigitalInkModule.h */,
+				9A9FEBB72A2DF8C40059ECF4 /* RCTDigitalInkModule.m */,
+				9A9FEBB82A2DF8C40059ECF4 /* RecognizedInk.h */,
+				9A9FEBBF2A2DF8C40059ECF4 /* RecognizedInk.m */,
+				9A9FEBBA2A2DF8C40059ECF4 /* RCTDigitalInkManager.h */,
+				9A9FEBB62A2DF8C40059ECF4 /* RCTDigitalInkManager.m */,
+				9A9FEBB22A2DF8C30059ECF4 /* SceneDelegate.h */,
+				9A9FEBBE2A2DF8C40059ECF4 /* SceneDelegate.m */,
+				9A9FEBBD2A2DF8C40059ECF4 /* StrokeManager.h */,
+				9A9FEBB92A2DF8C40059ECF4 /* StrokeManager.m */,
+				9A9FEBB52A2DF8C30059ECF4 /* ViewController.h */,
+				9A9FEBB32A2DF8C30059ECF4 /* ViewController.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				4FBBC9C81CEC3CD9F751091C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +105,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "DigitalInk" */;
 			buildPhases = (
+				F6E950C4F1C7C1F268A079ED /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -120,16 +151,43 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F6E950C4F1C7C1F268A079ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DigitalInk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-
-				F4FF95D7245B92E800C19C63 /* DigitalInk.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* DigitalInk.m in Sources */,
-
+				9A9FEBC12A2DF8C40059ECF4 /* DigitalInkView.m in Sources */,
+				9A9FEBC42A2DF8C40059ECF4 /* StrokeManager.m in Sources */,
+				9A9FEBC02A2DF8C40059ECF4 /* ViewController.m in Sources */,
+				9A9FEBC52A2DF8C40059ECF4 /* SceneDelegate.m in Sources */,
+				9A9FEBC22A2DF8C40059ECF4 /* RCTDigitalInkManager.m in Sources */,
+				9A9FEBC32A2DF8C40059ECF4 /* RCTDigitalInkModule.m in Sources */,
+				9A9FEBC62A2DF8C40059ECF4 /* RecognizedInk.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +222,7 @@
 				COPY_PHASE_STRIP = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -182,6 +241,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -214,6 +274,7 @@
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -224,6 +285,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -232,41 +294,44 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DigitalInk;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "DigitalInk-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Debug;
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/../../../ios/Pods/**";
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/Headers/Public/**",
+					"$(SRCROOT)/../../react-native/React/**",
 				);
-				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				LIBRARY_SEARCH_PATHS = "$(SDKROOT)/usr/lib/swift$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = DigitalInk;
 				SKIP_INSTALL = YES;
-
 				SWIFT_OBJC_BRIDGING_HEADER = "DigitalInk-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
-
 			};
 			name = Release;
 		};

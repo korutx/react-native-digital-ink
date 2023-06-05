@@ -18,4 +18,7 @@ Pod::Spec.new do |s|
   
 
   s.dependency "React"
+  s.dependency "GoogleMLKit" , "~> 4.0.0"
+  s.dependency "GoogleMLKit/DigitalInkRecognition" , "~> 4.0.0"
+  s.framework = "MLKit"
 end
