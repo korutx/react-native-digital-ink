@@ -38,12 +38,6 @@ const RCTDigitalInkView = requireNativeComponent<PropsType>('RCTDigitalInkView')
 
 export const DigitalInkView = (props: PropsType) => {
   
-  useEffect(() => {
-    setTimeout(() => {
-      console.log('here');
-    }, 1000);
-  }, []);
-
   const _onClick = (event: any) => {
     console.log('_onClick', event.nativeEvent);
     if (props.onClick) {

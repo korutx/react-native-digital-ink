@@ -13,8 +13,8 @@
 
 @implementation RCTDigitalInkModule
 
-
-RCT_EXPORT_MODULE();
+RCT_EXPORT_MODULE(RCTDigitalInk);
+//RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(downloadModel:(NSString *) languageTag resolver:(RCTPromiseResolveBlock)resolve
                   rejecter:(RCTPromiseRejectBlock)reject)
